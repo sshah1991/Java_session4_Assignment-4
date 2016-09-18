@@ -1,0 +1,13 @@
+package test3;
+
+public class childClass extends superClass {
+	public childClass() {
+		super("Sumeet");
+		System.out.println("inside chid class constructor");
+	}
+
+	public static void main(String[] args) {
+		childClass c = new childClass();
+
+	}
+}

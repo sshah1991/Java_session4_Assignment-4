@@ -1,0 +1,10 @@
+package test3;
+
+public class superClass {
+	String name;
+	public superClass(String s) {
+		this.name=s;
+		System.out.println("in superclass constructor");
+		System.out.println("value of string="+name);
+	}
+}
